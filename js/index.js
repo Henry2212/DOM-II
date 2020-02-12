@@ -1,8 +1,8 @@
 // Your code goes here
 
-const card = document.querySelector(".home .intro");
-card.addEventListener('click', (event) => {
-  card.style.backgroundColor="aqua"
+const solid = document.querySelector(".home .intro");
+solid.addEventListener('click', (event) => {
+  solid.style.backgroundColor="aqua"
 })
 
 
@@ -20,10 +20,6 @@ headerTwo[0].addEventListener("mouseover", ele => {
 
 headerTwo[1].addEventListener("mouseover", ele => {
   ele.target.style.color = "red";
-
-  setTimeout(() => {
-  ele.target.style.color = "";
-}, 1000);
 
 }, false);
 
